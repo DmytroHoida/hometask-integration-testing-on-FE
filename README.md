@@ -1,6 +1,6 @@
 # Hometask: Integration Testing on FE
 
-## Instruction on how install the project
+## Instruction on how to install the project
 
 1. Clone the repository to your local machine and open it with a program of your choice (preferably VS Code)
 2. Add JEST as development dependency with the command 'yarn add --dev jest'.
