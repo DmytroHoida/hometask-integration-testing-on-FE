@@ -9,7 +9,7 @@
 
 ## Run the tests
 
-Execute the following commang `yarn test` in order to run the test suite.
+Execute the following command `yarn test` in order to run the test suite.
 <br>
 If you see the following, it means that all tests have been run correctly. Congratulations!
 ![success](pass.png)
