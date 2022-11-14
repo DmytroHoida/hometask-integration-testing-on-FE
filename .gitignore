@@ -7,18 +7,6 @@ yarn-error.log*
 ​
 # Dependency directories
 node_modules/
-​
-#IntelliJ
-.idea
 
-#Babel
-babel.config.cjs
-
-#Yarn
-.yarn
-yarn.lock
-
-.pnp.cjs
-.pnp.loader.mjs
-
-package.json
+# Cache
+.yarn/cache/*
