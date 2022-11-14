@@ -1,32 +1,15 @@
 # Hometask: Integration Testing on FE
 
-## Instruction on how to install the project
+## Install the project
 
-1. Clone the repository to your local machine and open it with a program of your choice (preferably VS Code)
-2. Add JEST as development dependency with the command 'yarn add --dev jest'.
-3. Add the following piece of code to the 'package.json' file:
+1. Clone the repository to your local machine and open it using a program of your choice.
+2. Install the dependencies within the project by executing `yarn install` .
 
-```
-"scripts": {
-    "test": "jest"
-  }
-```
+<br>
 
-4. Install Babel package ('yarn add --dev babel-jest @babel/core @babel/preset-env') and add configuraion for it. Create a new file 'babel.config.cjs' and add the following code to it:
+## Run the tests
 
-```
-module.exports = {
-    presets: [
-        [
-            '@babel/preset-env',
-            {
-                targets: {
-                    node: 'current'
-                }
-            }
-        ]
-    ]
-};
-```
-
-5. Now you're ready to run the tests. Execute: 'yarn test'
+Execute the following commang `yarn test` in order to run the test suite.
+<br>
+If you see the following, it means that all tests have been run correctly. Congratulations!
+![success](pass.png)
